@@ -16,6 +16,7 @@
 		E4B0520F1D90C63100A9F4B2 /* arrow1.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B0520C1D90C63100A9F4B2 /* arrow1.png */; };
 		E4B052101D90C63100A9F4B2 /* arrow2.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B0520D1D90C63100A9F4B2 /* arrow2.png */; };
 		E4B052111D90C63100A9F4B2 /* arrow3.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B0520E1D90C63100A9F4B2 /* arrow3.png */; };
+		E4C4D8D21D93B49D00EED62F /* Img_loading.png in Resources */ = {isa = PBXBuildFile; fileRef = E4C4D8D11D93B49D00EED62F /* Img_loading.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		E4B0520C1D90C63100A9F4B2 /* arrow1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow1.png; sourceTree = "<group>"; };
 		E4B0520D1D90C63100A9F4B2 /* arrow2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow2.png; sourceTree = "<group>"; };
 		E4B0520E1D90C63100A9F4B2 /* arrow3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow3.png; sourceTree = "<group>"; };
+		E4C4D8D11D93B49D00EED62F /* Img_loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Img_loading.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		E4B051F51D8FE00C00A9F4B2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E4C4D8D11D93B49D00EED62F /* Img_loading.png */,
 				E4B0520C1D90C63100A9F4B2 /* arrow1.png */,
 				E4B0520D1D90C63100A9F4B2 /* arrow2.png */,
 				E4B0520E1D90C63100A9F4B2 /* arrow3.png */,
@@ -149,6 +152,7 @@
 			files = (
 				E4B051FC1D8FE00C00A9F4B2 /* Assets.xcassets in Resources */,
 				E4B052111D90C63100A9F4B2 /* arrow3.png in Resources */,
+				E4C4D8D21D93B49D00EED62F /* Img_loading.png in Resources */,
 				E4B051FF1D8FE00C00A9F4B2 /* LaunchScreen.storyboard in Resources */,
 				E4B052101D90C63100A9F4B2 /* arrow2.png in Resources */,
 				E4B0520F1D90C63100A9F4B2 /* arrow1.png in Resources */,
@@ -272,6 +276,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RefreshControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tashaxing.RefreshControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -283,6 +288,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RefreshControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tashaxing.RefreshControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -308,6 +314,7 @@
 				E4B052051D8FE00C00A9F4B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
